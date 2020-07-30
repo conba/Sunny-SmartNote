@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.205,D:\MyTest\SmartNote\Unit1.pas=D:\MyTest\SmartNote\uMemoEditor.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.762,=D:\MyTest\SmartNote\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.406,D:\MyTest\SmartNote\Unit1.pas=D:\MyTest\SmartNote\uEditBase.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.110,D:\MyTest\SmartNote\uEditBase.pas=D:\MyTest\SmartNote\uEditorBase.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.082,C:\Users\Administrator\Documents\RAD Studio\Projects\Unit13.dfm=D:\MyTest\SmartNote\MainForm.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.526,C:\Users\Administrator\Documents\RAD Studio\Projects\Project6.dproj=D:\MyTest\SmartNote\SmartNote.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.082,C:\Users\Administrator\Documents\RAD Studio\Projects\Unit13.pas=D:\MyTest\SmartNote\MainForm.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.624,=C:\Users\Administrator\Documents\RAD Studio\Projects\Unit13.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.280,=C:\Users\Administrator\Documents\RAD Studio\Projects\Unit13.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.931,=D:\MyTest\SmartNote\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.309,D:\MyTest\SmartNote\Unit1.pas=D:\MyTest\SmartNote\uEditorIntf.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.626,=D:\MyTest\SmartNote\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
