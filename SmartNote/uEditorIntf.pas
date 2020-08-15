@@ -5,6 +5,13 @@ uses
   Graphics, Dialogs;
 
 type
+  TWordCount = record
+    AnsiChar: Integer;
+    MultiChar: Integer;
+    NumChar: Integer;
+    Other: Integer;
+  end;
+
   IEditorIntf = interface
   ['{2D1EAB66-95CB-4EA9-B9B6-C271EA1DAA24}']
     function GetFileName: string;
@@ -27,7 +34,7 @@ type
     procedure SetFont(Font: TFont);
     function FindNext(Text: String; Option: TFindOptions): Boolean;
     function Replace(FindText, ReplaceText: String; Option: TFindOptions): Integer;
-    function GetWordCount: Integer;
+    function GetWordCount: TWordCount;
     function GetWordWarp: Boolean;  // ÊÇ·ñ·ÖÐÐ
     procedure SetWordWarp(WordWarp: Boolean);
   end;
