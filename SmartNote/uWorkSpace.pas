@@ -82,8 +82,8 @@ end;
 function TWorkSpace.Close: Integer;
 begin
   // 判断工作区是否被修改
-//  if FEditor.GetSaved then
-
+  if FEditor.GetSaved then
+    FEditor.Save;
 end;
 
 procedure TWorkSpace.Copy;

@@ -37,7 +37,7 @@ type
     function Replace(FindText, ReplaceText: String; Option: TFindOptions): Integer; virtual; abstract;
     function Save: Boolean; virtual;
     function SaveAs: Boolean; virtual;
-    procedure SelectAll; virtual;
+    procedure SelectAll; virtual; abstract;
     // 在保存的时候判断该文件是否已修改
     function GetSaved: Boolean; virtual; abstract;
     function GetSelectText: String; virtual; abstract;
@@ -131,11 +131,6 @@ begin
     FSaveDlg.Free;
     FSaveDlg := nil;
   end;
-end;
-
-procedure TEditorBase.SelectAll;
-begin
-
 end;
 
 end.

@@ -14,6 +14,7 @@ type
   public
     constructor Create(AOwner: TComponent; iIndex: Integer; FileName: string);
     destructor Destroy; override;
+    function TabWS_GetPageIndex() : Integer;
   end;
 
 implementation
@@ -49,7 +50,11 @@ begin
     FTabSheet.Caption := cst_Default_Title
   else
     FTabSheet.Caption := System.Copy(ExtractFileName(FileName), 1, 10);
+end;
 
+function TTabWorkSpace.TabWS_GetPageIndex: Integer;
+begin
+  Result := FTabSheet.PageIndex;
 end;
 
 end.

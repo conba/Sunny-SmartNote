@@ -37,6 +37,8 @@ type
     function Replace(FindText, ReplaceText: String; Option: TFindOptions): Integer; override;
     // 获得Memo中选中的文本
     function GetSelectText: String; override;
+    // 全选
+    procedure SelectAll; override;
   End;
 
 implementation
@@ -199,6 +201,11 @@ function TMemoEditor.Replace(FindText, ReplaceText: String;
   Option: TFindOptions): Integer;
 begin
 
+end;
+
+procedure TMemoEditor.SelectAll;
+begin
+  FMemo.SelectAll;
 end;
 
 procedure TMemoEditor.SetFont(Font: TFont);
